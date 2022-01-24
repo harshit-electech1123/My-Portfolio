@@ -1,0 +1,69 @@
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        margin-top: 8%;
+    }
+    .icons{
+        font-size: 32px;
+    }
+    .handles{
+        width: 30%;
+    }
+    .hobby-icon{
+        font-size: 55px;
+    }
+    .hobby{
+        width: 160px;
+    }
+    .hobby .type{
+        font-size: 14px;
+    }
+    .hobby .desc{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .container{
+        margin-top: 12%;
+    }
+    .right{
+        width: 50%;
+    }
+    .icons{
+        font-size: 28px;
+    }
+    .handles{
+        width: 32%;
+    }
+    .hobby-icon{
+        font-size: 50px;
+    }
+    .hobby{
+        width: 110px;
+    }
+    .hobby .type{
+        font-size: 11px;
+    }
+    .hobby .desc{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .right{
+        width: 95%;
+    }
+    .hobby-list{
+        flex-direction: column;
+    }
+    .hobby{
+        width: 225px;
+    }
+    .icons{
+        font-size: 32px;
+    }
+    .handles{
+        width: 25%;
+    }
+    
+}

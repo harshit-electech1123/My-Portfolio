@@ -1,0 +1,73 @@
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        margin-top: 8%;
+    }
+    .text-big{
+        font-size: 30px;
+    }
+    .text-small{
+        font-size: 16px;
+    }
+    .buttons .btn a{
+        font-size: 12px;
+    }
+    .icons{
+        font-size: 32px;
+    }
+    .handles{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .container{
+        margin-top: 12% ;
+    }
+    .text-big{
+        font-size: 22px;
+    }
+    .text-small{
+        font-size: 11px;
+    }
+    .buttons .btn{
+        padding: 2px 8px;
+    }
+    .buttons .btn a{
+        font-size: 9px;
+    }
+    .icons{
+        font-size: 26px;
+    }
+    .handles{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        margin-top: 12% ;
+    }
+    .text-big{
+        font-size: 18px;
+    }
+    .text-small{
+        font-size: 10px;
+    }
+    .buttons .btn{
+        padding: 2px 4px;
+    }
+    .buttons .btn a{
+        font-size: 8px;
+    }
+    .icons{
+        font-size: 26px;
+    }
+    .handles{
+        width: 40%;
+    }
+}

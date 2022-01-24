@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url('img/night3.jpeg');
+    background-size: cover;
+}
+
+
+.navbar-nav li {
+    margin: 2px 28px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.25rem;
+}
+.navbar-nav li a{
+    color: #1BA098;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    color: #DEB992;
+}
+.navbar-brand {
+    font-family: 'Ubuntu Mono', monospace;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 50%;
+    border-bottom: white;
+}
+.separate{
+display: flex;
+justify-content: center;
+}
+
+/* .background {
+    background: url('img/night3.jpeg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+} */
+
+.background-nav {
+    background: url('img/night3.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    /* background: yellow; */
+    display: flex;
+    margin-top: 4% ;
+}
+.left{
+    /* background: red; */
+    width: 60%;
+    margin: 5% 10%;
+}
+.right{
+    /* background: green; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right img{
+    width: 70%;
+    border-radius: 40px;
+
+}
+.handles{
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 5%;
+}
+
+
+.icons {
+    color: #1BA098;
+    font-size: 40px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: #DEB992;
+}
+.heading{
+    /* background-color: greenyellow; */
+}
+.text-big{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: #1BA098;
+}
+
+.skill-box{
+    /* background:cornsilk; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.skill{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 1px;
+}
+.skill-name{
+    /* background-color: salmon; */
+    font-family: 'Righteous', cursive;
+    color: #DEB992;
+    font-size: 22px;
+}
+.skill-level{
+    background-color: #DEB992;
+    width: 50%;
+    border-radius: 16px;
+}
+.level-1{
+    width: 90%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: #1BA098;
+    color: #DEB992;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level-2{
+    width: 75%;
+    height: 100%;
+    border-radius: 14px;
+    color: #DEB992;
+    font-family: 'Righteous', cursive;
+    background-color: #1BA098;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level-3{
+    width: 60%;
+    height: 100%;
+    border-radius: 14px;
+    font-size: 14px;
+    color: #DEB992;
+    font-family: 'Righteous', cursive;
+    background-color: #1BA098;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

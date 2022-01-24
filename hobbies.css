@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url('img/night3.jpeg');
+    background-size: cover;
+}
+
+
+.navbar-nav li {
+    margin: 2px 28px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.25rem;
+}
+.navbar-nav li a{
+    color: #1BA098;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    color: #DEB992;
+}
+.navbar-brand {
+    font-family: 'Ubuntu Mono', monospace;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 50%;
+    border-bottom: white;
+}
+.separate{
+display: flex;
+justify-content: center;
+}
+
+/* .background {
+    background: url('img/night3.jpeg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+} */
+
+.background-nav {
+    background: url('img/night3.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4% ;
+}
+.left{
+    /* background: red; */
+    display: flex;
+    width: 75%;
+    margin: 5% 10%;
+    justify-content: center;
+}
+.hobby-list{
+    /* background-color: yellow; */
+    display: flex;
+}
+.hobby{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    /* background-color: red; */
+    margin: 5px 8px;
+}
+.hobby .type{
+    font-size: 17px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #DEB992;
+}
+.hobby-icon{
+    font-size: 80px;
+    color: #1BA098;
+}
+.hobby .desc{
+    font-size: 12px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+.right{
+    /* background: green; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right img{
+    width: 30%;
+    border-radius: 40px;
+
+}
+.handles{
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 5%;
+}
+
+
+.icons {
+    color: #1BA098;
+    font-size: 40px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: #DEB992;
+}
